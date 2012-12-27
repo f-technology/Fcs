@@ -1,10 +1,16 @@
 {
     "minimum-stability": "dev",
     "require": {
-         "php": ">=5.3",
-         "zendframework/zendframework": "2.0.6",
-         "doctrine/doctrine-module": "dev-master",
-         "zf-commons/zfc-base": "dev-master",
-         "zf-commons/zfc-user-doctrine-orm": "dev-master"
-    }
+        "php": ">=5.3",
+        "zendframework/zendframework": "2.0.6",
+        "doctrine/doctrine-module": "dev-master",
+        "zf-commons/zfc-base": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master",
+        "f-technology/mte-base": "dev-master"
+    },
+    "repositories": [{
+        "type": "vcs",
+            "url":  "http://github.com/f-technology/MteBase"
+    }]
 }
