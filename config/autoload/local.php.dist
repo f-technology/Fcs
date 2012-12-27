@@ -16,5 +16,15 @@ return array(
         'username' => '%USERNAME%',
         'password' => '%PASSWORD%',
     ),
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'params' => array(
+                    'user' => '%USERNAME%',
+                    'password' => '%PASSWORD%',
+                ),
+            ),
+        ),
+    ),
 );
 
