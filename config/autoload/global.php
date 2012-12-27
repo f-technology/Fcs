@@ -26,8 +26,6 @@ return array(
                 'params' => array(
                     'host' => 'localhost',
                     'port' => '3306',
-                    'user' => '123',
-                    'password' => '321',
                     'dbname' => 'fcs',
                 ),
             ),
