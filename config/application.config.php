@@ -2,11 +2,12 @@
 
 return array(
     'modules' => array(
+        'MteBase',
         'Application',
         'DoctrineModule',
         'DoctrineORMModule',
-		'ZfcUser',
-		'ZfcUserDoctrineORM'
+        'ZfcUser',
+        'ZfcUserDoctrineORM'
     ),
     'module_listener_options' => array(
         'module_paths' => array(
