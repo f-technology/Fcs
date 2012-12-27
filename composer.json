@@ -11,6 +11,6 @@
     },
     "repositories": [{
         "type": "vcs",
-            "url":  "http://github.com/f-technology/MteBase"
+        "url":  "http://github.com/f-technology/MteBase"
     }]
 }
