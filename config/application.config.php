@@ -3,8 +3,9 @@
 return array(
     'modules' => array(
         'Application',
+        'DoctrineModule',
+        'DoctrineORMModule',
 		'ZfcUser',
-    	'DoctrineORMModule',
 		'ZfcUserDoctrineORM'
     ),
     'module_listener_options' => array(
@@ -12,6 +13,7 @@ return array(
             './module',
             './vendor',
         ),
+        'config_cache_enabled' => false,
         'config_glob_paths' => array(
             'config/autoload/{,*.}{global,local}.php',
         ),
