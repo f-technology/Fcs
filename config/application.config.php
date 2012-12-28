@@ -7,7 +7,8 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'ZfcUser',
-        'ZfcUserDoctrineORM'
+        'ZfcUserDoctrineORM',
+        'User',
     ),
     'module_listener_options' => array(
         'module_paths' => array(
